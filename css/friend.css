@@ -26,6 +26,7 @@
 
 .friend__content .friend__name {
   display: block;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -41,5 +42,22 @@
 }
 .friend .chat__timestamp,
 .friend__content .friend__status {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  border: 2px solid #52e084;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
   font-size: 12px;
 }
