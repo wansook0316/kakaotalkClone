@@ -6,7 +6,7 @@
 @import "friend.css";
 @import "friends.css";
 @import "find.css";
-
+@import "more.css";
 * {
   box-sizing: border-box;
   /* 어떤 기준으로 박스의 크기를 계산할지 정하는 속성 https://www.codingfactory.net/10630 */
